@@ -32,4 +32,9 @@ function exibeMsg($msg){
 
 }
 
+function letraMaiuscula(array &$conta){
+
+    $conta['titular'] = strtoupper($conta['titular']);
+}
+
 ?>

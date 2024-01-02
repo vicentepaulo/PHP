@@ -5,7 +5,9 @@ require_once('contas.php');
 
 $contas[227842] = sacar($contas[227842], 100);
 
-//$contas[227842] = depositar($contas[227843], 101);
+$contas[227843] = depositar($contas[227843], 101);
+
+letraMaiuscula($contas[227842]);
 
 foreach ($contas as $numero_conta => $conta) {
 
